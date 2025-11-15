@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechFlow — Contact</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>.contact-card{max-width:720px;margin:120px auto 60px;background:#fff;padding:2rem;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.08)}.contact-card h2{margin-bottom:1rem}.input{width:100%;padding:12px 14px;border:1px solid #e2e8f0;border-radius:10px;margin:8px 0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.grid .input{margin:0}.btn-submit{margin-top:12px}</style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">TechFlow</div>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+      </ul>
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+
+  <div class="contact-card">
+    <h2>Contact sales</h2>
+    <p>Have questions or want a custom demo? Send a message and the team will get back soon.</p>
+    <form action="mailto:hello@example.com" method="post" enctype="text/plain">
+      <div class="grid">
+        <input class="input" type="text" name="name" placeholder="Your name" required>
+        <input class="input" type="email" name="email" placeholder="Your email" required>
+      </div>
+      <textarea class="input" name="message" rows="6" placeholder="Tell us what you need"></textarea>
+      <button type="submit" class="btn btn-primary btn-submit">Send message</button>
+    </form>
+  </div>
+
+  <footer class="footer"><div class="container"><div class="footer-bottom"><p>&copy; 2025 TechFlow.</p></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

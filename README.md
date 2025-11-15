@@ -1,88 +1,48 @@
 # Stylish Product Landing Page
 
-A modern, responsive sales product landing page built with HTML, CSS, and JavaScript. Features a clean design with smooth animations, pricing tables, testimonials, and call-to-action sections.
+A modern, responsive sales product landing page built with HTML, CSS, and JavaScript. Deployed on GitHub Pages and organized into multiple pages for clear navigation.
 
-## Features
+## Live Demo
 
-- 🎨 Modern gradient design with smooth animations
-- 📱 Fully responsive layout for all devices
-- 🚀 Smooth scroll navigation
-- 💫 Intersection Observer animations
-- 🎯 Multiple sections: Hero, Features, Pricing, Testimonials, CTA
-- 🌈 Beautiful gradient effects and hover states
-- ⚡ Lightweight and fast-loading
+- Site: https://anindya-jana.github.io/stylish-product-landing/
+- Repository: https://github.com/anindya-jana/stylish-product-landing
 
-## Demo
+## Pages
 
-View the live demo: [GitHub Pages URL will be here]
+- Home: `index.html`
+- Features: `features.html`
+- Pricing: `pricing.html`
+- Reviews: `reviews.html`
+- About: `about.html`
+- Contact: `contact.html`
+- Privacy: `privacy.html`
+- Terms: `terms.html`
+- 404: `404.html`
 
-## Technologies Used
+## Tech Stack
 
-- HTML5
-- CSS3 (with CSS Grid and Flexbox)
-- Vanilla JavaScript
+- HTML5, CSS3 (Grid, Flexbox), Vanilla JavaScript
 - Google Fonts (Poppins)
 
-## Setup
+## Local Setup
 
-1. Clone the repository:
 ```bash
 git clone https://github.com/anindya-jana/stylish-product-landing.git
-```
-
-2. Open `index.html` in your browser or use a local server:
-```bash
+cd stylish-product-landing
 python -m http.server 8000
+# open http://localhost:8000
 ```
 
-3. Navigate to `http://localhost:8000`
+## Deploy (GitHub Pages)
 
-## Customization
+Pages is configured to "Deploy from a branch" using `main` → `/` (root). Any push to `main` redeploys automatically. To change the source, go to Settings → Pages and adjust the source and folder.
 
-### Colors
-Edit the CSS variables in `style.css`:
-```css
-:root {
-    --primary-color: #6366f1;
-    --secondary-color: #8b5cf6;
-    --dark-bg: #0f172a;
-    --light-bg: #f8fafc;
-}
-```
+## Customize
 
-### Content
-- Update text content in `index.html`
-- Modify pricing plans and features
-- Add your own testimonials and statistics
-
-### Images
-Replace the placeholder product mockup with your actual product images.
-
-## Sections
-
-1. **Navigation** - Sticky header with smooth scroll links
-2. **Hero** - Eye-catching headline with CTA buttons and stats
-3. **Features** - 6 feature cards with icons
-4. **Pricing** - 3-tier pricing table
-5. **Testimonials** - Customer reviews with ratings
-6. **CTA** - Final call-to-action section
-7. **Footer** - Links and company information
-
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+- Update colors in `style.css` under the `:root` variables
+- Replace the "TechFlow" brand and text in each `.html` file
+- Swap CTA links and add your analytics snippet in `script.js`
 
 ## License
 
-MIT License - feel free to use this for your projects!
-
-## Author
-
-Anindya Jana
-
-## Contributing
-
-Pull requests are welcome! For major changes, please open an issue first.
+MIT — free to use and modify.
